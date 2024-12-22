@@ -1,0 +1,3 @@
+# Expo Camera Preview Rendering Issues
+
+This repository demonstrates a bug in Expo's Camera API where the camera preview is not rendered correctly when used within a dynamic layout or when screen size changes.  The preview may be missing, distorted, or positioned incorrectly.  This issue is particularly prevalent when using animations or layout changes that affect the `Camera` component's container.
